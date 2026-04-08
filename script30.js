@@ -5,10 +5,12 @@
 function two(){
     return one() + one();
 }
+
 function three(){
     let ans = two() +one();
     console.log(ans);
 }
+
 three();
 
 // js is single thread

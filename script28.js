@@ -1,14 +1,18 @@
 // let btn = document.querySelector("button");
 // console.dir(btn);
+
 // btn.onclick = function(){
 //     console.log("hello");
 // }
+
 // function sayhello(){
 //     alert("hello");
 // }
+
 // btn.onclick = sayhello;
 // let btns = document.querySelectorAll("button");
 // console.dir(btns);
+
 // for(btn of btns){
 //     // btn.onclick = sayhello;
 //     btn.onmouseenter = function(){
@@ -51,6 +55,7 @@
 // inp.addEventListener("keyup" , function() {
 //     console.log("key are press");
 // })
+
 // inp.addEventListener("keydown" , function(event) {
 //     console.log("code = " +event.code);
 //     console.log("key = " + event.key);

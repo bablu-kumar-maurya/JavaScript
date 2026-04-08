@@ -5,7 +5,7 @@
 
 
 // selecting element
-// getElementsByClassName
+// getElementsByClassName 
 // return as an element html collection or empty collection
 // let classimg = document.getElementsByClassName("oldImg");
 // console.dir(classimg);
@@ -15,6 +15,7 @@
     // classimg[i].src = "assets/spiderman_img.png";
     // console.log(`every img is changed into spiderman ${i} .`);
 // }
+
 
 
 // selecting element
@@ -60,8 +61,6 @@
 //     links[i].style.color = "red";
 // }
 
-
-// manupulating Style
 // obj.classlist
 // classList.add() add new class
 // classlist.remove() remove exsiting class
@@ -72,7 +71,8 @@
 //  headd.classList.add("green");
 //  headd.classList.remove("green")
 //  headd.classList.contains("green");
-//  headd.classList.toggle("green");  jab phle se class exist krega 
+//  headd.classList.toggle("green");  jab phle se class exist krega toh remove kr dega jab phle se class 
+// exist nahi krega toh add kr dega on/off ka like work krta hai 
 // headd.classList.toggle("underline");
 
 
@@ -83,16 +83,17 @@
 // console.dir(headings.parentElement);
 // console.dir(headings.children);
 
+
+
 // adding element
 // document.createElement()
 // let para = document.createElement('p');
 // console.dir(para);
 // para.innerText = "Hi i am here";
 // let box = document.querySelector('.box');
-// box.appendChild(para); // append in the last
-// para.append(" am i");
+// box.appendChild(para);   // append in the last only element 
+// para.append(" am i");    // add in the last text or element both are possible 
 // para.prepend("add in the prev");
 // para.insertAdjacent(where , element) read by chrome
 // // remove element
-// box.removeChild(para);
 // box.remove("hi i am here");

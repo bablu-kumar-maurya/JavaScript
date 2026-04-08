@@ -117,3 +117,5 @@ function factory(request) {
 };
 
 
+
+console.log(Info.add(2, 3));

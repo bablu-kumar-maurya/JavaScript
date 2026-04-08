@@ -26,10 +26,13 @@
 
 // map method
 // create a new array
-// let double = arr.map (function(el){
-//    return el.marks/3;
+// let nums = [1, 2, 3, 4];
+// let newNums = nums.map((num) => {
+//     return num * 2;
 // });
-// console.log(double);
+// console.log(newNums);
+// output  = [2,4,6,8]
+
 
 
 // filter = add in the array only true value
@@ -49,24 +52,25 @@
 // );
 // console.log(values1);
  
+
 // reduce method
 // reduces the array in the single value basically its return true or false  
 // let nums = [1,2,3,4];
 // let finalvalues = nums.reduce((res,el) => (res+el));
 // console.log(finalvalues);
 
-// default method
 
+// default method
 // function sum(a,b=2){
 //     return a+b;
 // }
 // console.log(sum(4));
 
-// // spread
 
-let arr4 = [1,2,3,4,3,2,4,5,6];
-let min = Math.min(arr4);
- console.log(min);
+// // spread
+// let arr4 = [1,2,3,4,3,2,4,5,6];
+// let min = Math.min(arr4);
+//  console.log(min);
 //  let min1 = Math.min(...arr4);
 //  console.log(min1);
 //  console.log(...arr4);

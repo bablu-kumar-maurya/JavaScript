@@ -9,8 +9,7 @@
 //   }
 // };
 
-
-// try and catch 
+// try and catch
 // console.log("hello");
 // console.log("hello1");
 // try {
@@ -22,23 +21,23 @@
 // console.log("hello2");
 // console.log("hello3");
 
-
 // // arrow function
 // let sum  = (a,b) =>{
 //     return a+b;
 // }
+
 // console.log(sum(2,3));
 // let print = () =>{
 // console.log("hye americans")
 // }
 // print();
+
 // let sub = (a,b) => (a-b) ;
 // console.log(sub(4,2));
 // let pow = (n) =>{
 //     return n*n*n;
 // }
 // console.log(pow(3));
-
 
 // set time out
 
@@ -52,19 +51,16 @@
 //     console.log("hello body");
 // },6000);
 
-
 // setInterval
 // setInterval (() =>{
 //     console.log("the setInterval is executed the every two second agian and again");
 // },2000);
-
 
 // let id = setInterval(() =>{
 //     console.log("hello");
 // },3000);
 // console.log(id);
 // clearInterval(id);
-
 
 // this keyword use in simple function and arrow function
 
@@ -96,3 +92,4 @@
 //         },2000)
 //     }
 // };
+

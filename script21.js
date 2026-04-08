@@ -71,7 +71,7 @@
 
 
 // // sort method
-// // sort method in string values change as like this value
+// // sort method is used to sort the array in ascending order [String array] . 
 
 // console.log(cars.sort());
 
@@ -92,6 +92,4 @@
 // console.log(arr);
 // console.log(arr.length);
 // console.log(arr[0][1]);
-
-
 
