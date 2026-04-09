@@ -11,16 +11,9 @@
 
 // foreach method
 
- 
-// let print = function(arr){
-//     console.log(arr);
-// }
-// arr.forEach(print);
-
-// or
-
-// arr.forEach(function(arr){
-//       console.log(arr);
+// let arr = [2,3,4,5];
+// arr.forEach(function(val , index){
+// console.log(val +" " + index + " ");
 // });
 
 
@@ -54,9 +47,11 @@
  
 
 // reduce method
-// reduces the array in the single value basically its return true or false  
+// // reduce method in javascript is convert an array into a single value 
 // let nums = [1,2,3,4];
-// let finalvalues = nums.reduce((res,el) => (res+el));
+// let finalvalue = nums.reduce((num1 , num2)=>{
+    // return num1+num2;
+    // });
 // console.log(finalvalues);
 
 
@@ -68,12 +63,20 @@
 
 
 // // spread
-// let arr4 = [1,2,3,4,3,2,4,5,6];
-// let min = Math.min(arr4);
-//  console.log(min);
-//  let min1 = Math.min(...arr4);
-//  console.log(min1);
-//  console.log(...arr4);
+// The spread operator (...) is used to expand or unpack values from an array, object, or string.
+
+// let arr = [1, 2, 3];
+// console.log(...arr);  // output 1 2 3
+
+// let a = [1, 2];
+// let b = [3, 4];
+// let c = [...a, ...b];
+// console.log(c);    // o/p. [1,2,3,4]
+
+// let name = "bablu";
+// let arr = [...name];
+// console.log(arr);  // o/p ['b','a','b','l','u']
+
 // let arr10 = [..."bablukumar"];
 //  console.log(arr10);  // o/p['b'a'b'l'u'k'u'm'a'r']
 
@@ -86,16 +89,21 @@
 // // rest
 // allow the function to take an infinite number of arguments and bundle them in the array
 // function sum(...args){
-//     return args.reduce((sum,el) => sum+el);
+//     return args.reduce((sum,el) => sum+el);                  
 // }
 
 // destructuring 
-// storing values of array into multiple variable
+// Destructuring is a way to extract values from arrays or objects and store them in variables easily.
 // let namess = ["bablu","Ajay","Dipu","Gobind","Vijay","Sandip","Pradip","Dhanjay"];
+// let numbers = [12,3,4,4,5,6];
+// let [a,b,c,d , ...rest] = numbers;  // rest oparator is used to store the remaining element in the array in the form of array
+// console.log(a ,b ,c, d ,rest);
 
+// / let numbers = [12,3,4,4,5,6];
+// let [a, , ,d, ...rest] = numbers;  // rest oparator is used to store the remaining element in the array in the form of array
+// console.log(a , d ,rest);
 // let[vfvf,other,...nam] = namess;
 
-// object
 
 // let object ={
 //     name:"jfv", 
@@ -103,7 +111,9 @@
 //     email:"bablu@2123",
 //     class:12
 // }
-// let{name,email:gmail} = object;
+// let{name,email} = object;
 // console.log(name);
 
 // console.log(gmail);
+
+

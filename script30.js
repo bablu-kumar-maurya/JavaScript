@@ -108,6 +108,10 @@ savetoDb("apna college")
 })
 .then(()=>{
     console.log("data2 saved");
+    return savetoDb("Hi peter");
+})
+.then(()=>{
+    console.log("data3 saved");
 })
 .catch(()=>{
     console.log("failure the data not saved");

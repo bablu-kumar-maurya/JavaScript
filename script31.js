@@ -13,7 +13,7 @@
 //     });
 
 // await keyword
-// pause the execution of its surrounding async function untill the promise is settle(resolve or reject)
+// // pause the execution of its surrounding async function untill the promise is settle(resolve or reject)
 // function getname() {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
